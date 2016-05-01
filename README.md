@@ -1,8 +1,10 @@
 #Tut
 
 1.Copy this script to your Project folder
+
 2.Add this script as autoload and leave the name as tilemap
 	Scene -> Projects Settings -> Autoload
+	
 3.Create a TileMap Node and add a new script to this Node.
 	
 4.
@@ -11,6 +13,7 @@
 #Modes
 
 Tileset - Use your Tileset Scene as objects source. -> Adds the Root Node children as objects
+
 Scene - Use your Scene as objects source. -> Adds the Root Node as object, add multible Scenes with a dictionary ["name"] = PATH
 
 #Example - Scene Mode
